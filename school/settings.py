@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'learn',
+    #'User',
 ]
 
 MIDDLEWARE = [
@@ -118,3 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# ACCOUNT_UNIQUE_EMAIL = True
+AUTH_USER_MODEL = 'learn.User'
+#AUTH_USER_MODEL = "users_management.UserManage" 
