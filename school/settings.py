@@ -90,14 +90,14 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 # development
 if config('MODE')=="dev":
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-           'NAME': 'schoolsystem',
-           'USER': 'jecinta'
-           'PASSWORD': 'jesswanjiru',
-           'HOST': 'DB_HOST',
-           'PORT': '',
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'schoolsystem',
+            'USER': 'jecinta'
+            'PASSWORD': 'jesswanjiru',
+            'HOST': 'DB_HOST',
+            'PORT': '',
     }
 }
 else:
