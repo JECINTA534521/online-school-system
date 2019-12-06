@@ -12,12 +12,12 @@ This application helps teachers to post assignments and the students can attempt
 As a user, You will:
 
 1. Sign in as a teacher and post assignments.
-2.
-3.Sign in as a student and attempt doing the assignments.
+
+3. Sign in as a student and attempt doing the assignments.
 
 5. A student can also view the taken assignments.
 6. A teacher can delete assignments.
-7.
+
 ## Live link at: 
 https://schoolsystemjess.herokuapp.com/
 
