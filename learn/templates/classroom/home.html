@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<hr>
+<hr>
+<hr>
+<div class="container">
+  <body>
+  <h2>Welcome to the online school system <span class="icon-emo-happy"></span></h2>
+  <p>
+    If you already have an account, go ahead and <a href="{% url 'login' %}">log in</a>. If you are new to the online school system, get started
+    by creating a <a href="{% url 'student_signup' %}">student account</a> or a <a href="{% url 'teacher_signup' %}">teacher account</a>.
+  </p>
+  <hr>
+
+  <style>
+    body{
+      background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(/static/images/00EDGOOGLE1-articleLarge.jpg);
+      /* background-repeat: no-repeat; */
+      background-size: contain;
+
+    }
+    h2{
+      color: lightcoral;
+    }
+  </style>
+  </body>
+  </div>
+
+{% endblock %}
