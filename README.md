@@ -19,7 +19,7 @@ As a user, You will:
 6. A teacher can delete assignments.
 7.
 ## Live link at: 
-
+https://schoolsystemjess.herokuapp.com/
 
 ### Installing
 
