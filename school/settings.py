@@ -96,7 +96,7 @@ if config('MODE')=="dev":
             'NAME': 'schoolsystem',
             'USER': 'jecinta',
             'PASSWORD':'jesswanjiru',
-            'HOST': 'DB_HOST',
+            'HOST': '127.0.0.1',
             'PORT': '',
     }
 }
